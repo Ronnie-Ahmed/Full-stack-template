@@ -1,0 +1,11 @@
+:root { --bg:#0b0d12; --card:#151922; --text:#e8eaf0; --muted:#8b93a7; --accent:#6366f1; --danger:#f87171; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--text); }
+main { max-width: 440px; margin: 10vh auto; padding: 0 1rem; }
+.card { background:var(--card); border-radius:12px; padding:1.5rem; display:flex; flex-direction:column; gap:.75rem; }
+input { padding:.65rem .8rem; border-radius:8px; border:1px solid #2a3040; background:#0f121a; color:var(--text); }
+button, .btn { padding:.7rem 1rem; border:0; border-radius:8px; background:var(--accent); color:#fff; font-weight:600; cursor:pointer; text-align:center; text-decoration:none; }
+button:disabled { opacity:.6; cursor:not-allowed; }
+a { color:var(--accent); }
+.error { color:var(--danger); font-size:.9rem; margin:0; }
+.muted { color:var(--muted); }
